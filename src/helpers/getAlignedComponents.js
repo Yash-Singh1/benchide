@@ -17,7 +17,8 @@ export default function getAlignedComponents(components) {
                   ? 'solid'
                   : 'none',
               marginBottom: 10,
-              marginTop: 10
+              marginTop: 10,
+              paddingTop: 5
             }}
           >
             {component}
