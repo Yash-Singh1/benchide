@@ -15,10 +15,7 @@ export default function getAlignedComponents(components) {
               borderRight:
                 index === components.length - 1 || index % 2 !== 0
                   ? 'solid'
-                  : 'none',
-              marginBottom: 10,
-              marginTop: 10,
-              paddingTop: 5
+                  : 'none'
             }}
           >
             {component}

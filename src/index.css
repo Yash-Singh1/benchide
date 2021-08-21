@@ -21,6 +21,7 @@ body {
   cursor: pointer;
 }
 
-.toolbar {
-  margin-top: 10px;
+.ide-column {
+  margin: 10px 0;
+  padding-top: 5px;
 }
