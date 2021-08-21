@@ -1,3 +1,3 @@
-# `react-app-template`
+# `benchide`
 
-This is my React App Template.
+IDE for JavaScript.

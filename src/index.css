@@ -4,3 +4,23 @@ body {
   padding: 2.5%;
   font-family: 'Baloo Bhai 2', cursive;
 }
+
+.CodeMirror {
+  text-align: left;
+}
+
+.bin-icon {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+}
+
+.toolbar {
+  margin-top: 10px;
+}
