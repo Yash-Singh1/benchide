@@ -17,6 +17,7 @@ export default function getAlignedComponents(components) {
                   ? 'solid'
                   : 'none'
             }}
+            className='ide-column'
           >
             {component}
           </Col>
