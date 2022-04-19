@@ -32,19 +32,21 @@ function App() {
                 )
               }
             />
-            <span
-              className='bin-icon'
-              onClick={() =>
-                dispatch(
-                  setIDEs(
-                    IDEs.filter((deepIDE) =>
-                      IDE.i === deepIDE.i ? false : true
+            <span className='bin-icon'>
+              <span
+                onClick={() =>
+                  dispatch(
+                    setIDEs(
+                      IDEs.filter((deepIDE) =>
+                        IDE.i === deepIDE.i ? false : true
+                      )
                     )
                   )
-                )
-              }
-            >
-              🗑️
+                }
+                tabIndex='0'
+              >
+                🗑️
+              </span>
             </span>
           </>
         ))
