@@ -9,7 +9,7 @@
   "author": "Yash Singh",
   "license": "MIT",
   "dependencies": {
-    "codemirror": "^5.62.2",
+    "codemirror": "^6.0.0",
     "live-server": "^1.2.1",
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
